@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        
+        <title>Home - Società di Consulenza</title>
+        <style>
+            
+            body {
+                margin: 0;
+                font-family: "Arimo", serif;
+                line-height: 1.6;
+                color: #333;
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;  
+            }     
+
+main {
+    flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+}
+       
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #0073e6;
+    color: white;
+    height: 100px;
+}
+
+#logo{
+    height: 100px;
+    margin-left: 25px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: #005bb5;
+    
+}
+
+        
+        .banner {
+            text-align: center;
+            padding: 95px 20px;
+            
+        }
+
+        .banner h1 {
+            font-size: 2.5em;
+            padding: 30px 30px;
+            
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            color: #2b2b2b;
+            padding-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.social-links {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li a {
+    color: white;
+    padding: 0 10px;
+
+    
+}
+
+.social-links li a:hover {
+    color: #005bb5;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="../img/Image20250120175233.png" alt="logo" id="logo" >
+        <nav>
+            <ul>
+                <li class="language"><a href="index.html">ITA</a><br>
+                    <a href="../htmleng/indexeng.html">ENG</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chi-siamo.html">Chi siamo</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section class="banner">
+        <h1>Benvenuti nella vostra guida al successo!</h1>
+        <p>Offriamo soluzioni strategiche su misura per il vostro business.</p>
+    </section>
+
+    
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: info@societadicontulenza.it | +39 123 456 7890</p>
+            <ul class="social-links">
+                <li>
+                    <img src="../img/facebook.png" alt="facebook" style="height: 30px">
+                    <a href="#">Facebook</a></li>
+                <li>
+                    <img src="../img/social.png" alt="instagram" style="height: 30px;">
+                    <a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

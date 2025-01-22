@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family: "Arial", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* #header{
+    display: flex;
+    justify-content:space-between;
+    bottom: 0;
+    align-items: center;
+    background-color: #0073e6;
+    color: white;
+}
+
+#headlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #0073e6;
+    color: white;
+    height: 100px;
+}
+
+#logo{
+    height: 100px;
+    margin-left: 25px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: #005bb5;
+    
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #contatti:active{
+    background-color: aliceblue;
+}
+
+#headlinks a:hover{
+    background-color: #005bb5;
+    border-radius: 25px;
+}
+
+
+a, #logo{
+    margin-right: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);         
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+} */
+
+/* #logo{
+    margin-left: 100px;
+    height: 100px;
+} */
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+
+.social-links {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li a {
+    color: white;
+    padding: 0 10px;
+
+    
+}
+
+.social-links li a:hover {
+    color: #005bb5;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+#nostrasede{
+    text-align: center;
+}
+
+#map-address{
+    display: flex;
+    justify-content:center;
+
+}
+#map{
+    width: 40%;
+}
+
+#address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    width: 30%;
+    background-color: #005bb5;
+}
+#name, #email, #text{
+    width: 560px;
+}
+
+#name, #email{
+    height: 30px;
+}
+
+#text{
+    height: 90px;
+}
+
+#formcontainer{
+    margin-left: 150px ;
+    margin-bottom: 50px;
+}
+#lang-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#lang-container >*{
+    font-size: 12px;
+}

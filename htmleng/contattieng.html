@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/b01624e478.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img src="../img/Image20250120175233.png" alt="logo" id="logo" >
+            <nav>
+                <ul>
+                    <li class="language"><a href="../html/contatti.html">ITA</a><br>
+                        <a href="contattieng.html">ENG</a></li>
+                    <li><a href="indexeng.html">Home</a></li>
+                    <li><a href="chi-siamo-eng.html">About Us</a></li>
+                    <li><a href="servizi-eng.html">Services</a></li>
+                    <li><a href="contattieng.html">Contacts</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <h1 id="nostrasede">
+           Our location
+        </h1>
+        <div id="map-address">
+            <div id="address">
+                <h1 id="sede-roma">Rome</h1>
+                <p id="indirizzo">Piazza del Popolo, 18 <br>
+                    00187 Rome <br>
+                    Italy</p>
+                    <p id="tel">Phone: +39 06 420871</p>    
+                    <p id="fax">Fax: +39 06 42013313</p>          
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2970.6721378387165!2d12.504825076084567!3d41.87839997124176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDUyJzQyLjIiTiAxMsKwMzAnMjYuNiJF!5e0!3m2!1sen!2sit!4v1737383978734!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div id="formcontainer">
+            <h1 class="formdesc">To request information or get in touch with us, fill out the form:</h1>
+            <p id="type">Type of request*</p>
+            <form action="#">
+                <input type="radio" value="Recruiting" name="messagetype" id="recruiting">
+                <label for="recruiting">Recruiting</label><br>
+                <input type="radio" value="gggg" name="messagetype"  id="relazioni">
+                <label for="formtype">External affairs</label><br>
+                <input type="radio" value="gggg" name="messagetype" id="consulenza" >
+                <label for="formtype">Consulting</label><br>
+
+                <label for="nome">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="text">Message:</label><br>
+                <textarea name="text" id="text"></textarea><br>
+
+                <button>Send</button>
+            </form>
+            
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>Contact us: info@societadicontulenza.it | +39 123 456 7890</p>
+                <ul class="social-links">
+                    <li>
+                        <img src="../img/facebook.png" alt="facebook" style="height: 30px">
+                        <a href="#">Facebook</a></li>
+                    <li>
+                        <img src="../img/social.png" alt="instagram" style="height: 30px;">
+                        <a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
