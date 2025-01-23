@@ -1,10 +1,24 @@
 body{
     margin: 0;
-    font-family: "Arimo", "Arial", serif;
+    font-family: "Arial", serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(../img/Image20250123145703.jpg);
 }
+
+/* #header{
+    display: flex;
+    justify-content:space-between;
+    bottom: 0;
+    align-items: center;
+    background-color: #0073e6;
+    color: white;
+}
+
+#headlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 header {
     display: flex;
@@ -14,8 +28,6 @@ header {
     background-color: #0073e6;
     color: white;
     height: 100px;
-    background-color: rgba(0, 91, 181, 0.8);
-    box-shadow: 0px 5px 5px 2px rgba(34,74,114,1);
 }
 
 #logo{
@@ -31,6 +43,10 @@ nav ul {
     display: flex;
 }
 
+
+
+
+
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -40,8 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #097ef3;
-    border-radius: 10%;
+    background-color: #005bb5;
     
 }
 
@@ -51,6 +66,32 @@ nav ul li a:hover {
     flex-direction: column;
 
 }
+
+/* #contatti:active{
+    background-color: aliceblue;
+}
+
+#headlinks a:hover{
+    background-color: #005bb5;
+    border-radius: 25px;
+}
+
+
+a, #logo{
+    margin-right: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);         
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+} */
+
+/* #logo{
+    margin-left: 100px;
+    height: 100px;
+} */
 
 
 /* Footer */
@@ -80,7 +121,7 @@ footer {
 }
 
 .social-links li a:hover {
-    color: #54a3f3;
+    color: #005bb5;
 }
 
 li{
@@ -101,16 +142,6 @@ li{
     width: 40%;
 }
 
-input{
-    margin: 10px;
-}
-
-input[type = "radio"]{
-    margin: 5px;
-}
-
-
-
 #address{
     display: flex;
     justify-content: center;
@@ -121,7 +152,7 @@ input[type = "radio"]{
     background-color: #005bb5;
 }
 #name, #email, #text{
-    width: 760px;
+    width: 560px;
 }
 
 #name, #email{
@@ -133,12 +164,8 @@ input[type = "radio"]{
 }
 
 #formcontainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin-left: 150px ;
     margin-bottom: 50px;
-
 }
 #lang-container{
     display: flex;
@@ -148,19 +175,3 @@ input[type = "radio"]{
 #lang-container >*{
     font-size: 12px;
 }
-
-button{
-    width: 130px;
-    height: 30px;
-    border-radius: 10%;
-    background-color: #005bb5;
-    color: white;
-}
-
-button:hover{
-    background-color: #01468b;
-    
-}
-
-
-
